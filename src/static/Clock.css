@@ -1,0 +1,24 @@
+.container.outer {
+    height: 100vh;
+    background: #ddd6f3;
+    background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);
+    background: linear-gradient(to right, #faaca8, #ddd6f3);
+}
+.row.outer {
+    height: calc(100% - 60vh);
+}
+.time-box {
+    height: 200px;
+    width: 200px;
+    border: 2px dashed !important;
+}
+h1 {
+    font-size: 150px;
+    font-weight: bolder;
+    color: #0F2027;
+}
+#hour, #min, #sec {
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 120px;
+}
